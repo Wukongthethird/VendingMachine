@@ -6,26 +6,18 @@ function VendingMachine(){
 
   return (
     <div className="VendingMachine">
-      <div className="btn btn-light">
-        <NavLink exact to="/soda">
-          Soda
-        </NavLink>
-      </div>
-      <div className="btn btn-light">
-        <NavLink exact to="/bread">
-          Bread
-        </NavLink>
-      </div>
-      <div className="btn btn-light">
-        <NavLink exact to="/squid">
-          Squid
-        </NavLink>
-      </div>
-      <div className="btn btn-light">
-        <NavLink exact to="/chickpeas">
-          Chickpeas
-        </NavLink>
-      </div>
+    <NavLink className="btn btn-light" exact to="/soda">
+      Soda
+    </NavLink>
+    <NavLink  className="btn btn-light" exact to="/bread">
+      Bread
+    </NavLink>
+    <NavLink className="btn btn-light" exact to="/squid">
+      Squid
+    </NavLink>
+    <NavLink className="btn btn-light" exact to="/chickpeas">
+      Chickpeas
+    </NavLink>
     </div>
   )
 }
